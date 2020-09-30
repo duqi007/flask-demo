@@ -1,0 +1,545 @@
+2020-09-27 21:50:08,779 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 22:04:37,848 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:22:43,805 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:29:29,167 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:33:34,515 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:34:18,631 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:36:37,958 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:36:43,228 ERROR: Exception on /reset_password_request [POST] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\application_datacenter\vscw\test\app\routes.py", line 171, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\application_datacenter\vscw\test\app\email.py", line 21, in send_password_reset_email
+    sender=app.config['ADMINS'],
+KeyError: 'ADMINS'
+2020-09-27 23:36:57,534 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-27 23:38:04,703 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 11:42:40,689 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 11:44:42,684 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:12:46,547 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:12:57,042 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:22:24,938 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:22:30,328 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:22:34,259 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:23:21,211 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 12:23:30,692 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 14:49:10,601 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 14:53:38,127 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 14:54:28,108 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 14:57:35,375 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 14:59:30,522 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:08:02,878 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:08:47,804 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:09:24,333 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:11:59,662 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:14:41,908 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:15:15,988 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:28:31,002 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:31:34,795 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:31:54,099 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:34:11,776 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:34:55,565 ERROR: Exception on /index [POST] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\routes.py", line 22, in index
+    if language != 'UNKNOWN' and len(language) <= 5 else None
+UnboundLocalError: local variable 'language' referenced before assignment
+2020-09-28 15:36:40,210 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 15:38:39,380 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:58]
+2020-09-28 20:58:04,969 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 20:58:15,691 ERROR: Exception on /translate [POST] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 135, in translate_text
+    return jsonify({'text': translate(request.form['text'],
+  File "D:\application_datacenter\vscw\test\app\translate.py", line 15, in translate
+    if 'BD_TRANSLATOR_KEY' not in app.config or \
+NameError: name 'app' is not defined
+2020-09-28 20:59:20,358 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:00:31,489 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:08:44,504 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:12:18,297 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:15:10,292 ERROR: Exception on /auth/login [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\application_datacenter\vscw\test\app\auth\routes.py", line 27, in login
+    return render_template('auth/login.html',title = _('Sign in'), form = form)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\application_datacenter\vscw\test\app\templates\auth\login.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 1, in top-level template code
+    {% extends 'bootstrap/base.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
+    {%- block html %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
+    {% block body -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
+    {% block content -%}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 75, in block "content"
+    {% block app_content %}
+  File "D:\application_datacenter\vscw\test\app\templates\auth\login.html", line 5, in block "app_content"
+    {% include '../sub_page/_wtf_form.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../sub_page/_wtf_form.html
+2020-09-28 21:21:58,730 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:22:07,453 ERROR: Exception on /auth/login [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\application_datacenter\vscw\test\app\auth\routes.py", line 27, in login
+    return render_template('auth/login.html',title = _('Sign in'), form = form)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\application_datacenter\vscw\test\app\templates\auth\login.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 1, in top-level template code
+    {% extends 'bootstrap/base.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
+    {%- block html %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
+    {% block body -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
+    {% block content -%}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 75, in block "content"
+    {% block app_content %}
+  File "D:\application_datacenter\vscw\test\app\templates\auth\login.html", line 5, in block "app_content"
+    {% include '../sub_page/_wtf_form.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../sub_page/_wtf_form.html
+2020-09-28 21:24:05,585 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:26:03,404 ERROR: Exception on /auth/reset_password_request [POST] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\application_datacenter\vscw\test\app\auth\routes.py", line 56, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\application_datacenter\vscw\test\app\auth\email.py", line 13, in send_password_reset_email
+    html_body=render_template('email/reset_password.html',
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\application_datacenter\vscw\test\app\templates\email\reset_password.html", line 9, in top-level template code
+    <p>{{ url_for('reset_password', token=token, _external=True) }}</p>
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'reset_password' with values ['token']. Did you mean 'auth.reset_password' instead?
+2020-09-28 21:28:56,324 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:30:54,280 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:32:13,884 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:33:20,971 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:37:00,570 ERROR: Exception on /follow/duqi [POST] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 109, in follow
+    return redirect(url_for('user_info', _username=username))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user_info' with values ['_username']. Did you mean 'main.user_info' instead?
+2020-09-28 21:39:18,386 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:45:49,740 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:50:09,899 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:52:40,085 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:55:55,867 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:56:00,230 ERROR: Exception on /main/index [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 40, in index
+    return render_template('index.html', title=_('Home'), form=form,
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\application_datacenter\vscw\test\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 1, in top-level template code
+    {% extends 'bootstrap/base.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
+    {%- block html %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
+    {% block body -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 26, in block "body"
+    {% block scripts %}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 14, in block "scripts"
+    $.post(  {{url_for('main.translate')}} , {
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.translate'. Did you mean 'main.translate_text' instead?
+2020-09-28 21:56:36,877 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:57:41,207 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 21:58:32,476 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 22:01:32,029 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 22:02:39,082 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 22:05:45,362 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 22:08:12,974 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 22:09:27,627 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-28 23:04:49,686 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:76]
+2020-09-29 16:20:20,844 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:38:37,879 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:38:48,971 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 147, in search
+    posts, total = Post.search(g.search_form.q.data, page,
+  File "D:\application_datacenter\vscw\test\app\models.py", line 21, in search
+    ids, total = query_index(cls.__tablename__, expression, page, per_page)
+  File "D:\application_datacenter\vscw\test\app\search.py", line 19, in query_index
+    search = current_app.elasticsearch.search(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\__init__.py", line 1612, in search
+    return self.transport.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 392, in perform_request
+    raise e
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 358, in perform_request
+    status, headers_response, data = connection.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\base.py", line 300, in _raise_error
+    raise HTTP_EXCEPTIONS.get(status_code, TransportError)(
+elasticsearch.exceptions.NotFoundError: NotFoundError(404, 'index_not_found_exception', 'no such index [post]', post, index_or_alias)
+2020-09-29 16:44:42,608 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:44:51,732 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 147, in search
+    posts, total = Post.search(g.search_form.q.data, page,
+  File "D:\application_datacenter\vscw\test\app\models.py", line 21, in search
+    ids, total = query_index(cls.__tablename__, expression, page, per_page)
+  File "D:\application_datacenter\vscw\test\app\search.py", line 19, in query_index
+    search = current_app.elasticsearch.search(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\__init__.py", line 1612, in search
+    return self.transport.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 392, in perform_request
+    raise e
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 358, in perform_request
+    status, headers_response, data = connection.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\base.py", line 300, in _raise_error
+    raise HTTP_EXCEPTIONS.get(status_code, TransportError)(
+elasticsearch.exceptions.NotFoundError: NotFoundError(404, 'index_not_found_exception', 'no such index [post]', post, index_or_alias)
+2020-09-29 16:47:47,177 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:47:50,126 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 147, in search
+    posts, total = Post.search(g.search_form.q.data, page,
+  File "D:\application_datacenter\vscw\test\app\models.py", line 21, in search
+    ids, total = query_index(cls.__tablename__, expression, page, per_page)
+  File "D:\application_datacenter\vscw\test\app\search.py", line 19, in query_index
+    search = current_app.elasticsearch.search(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\client\__init__.py", line 1612, in search
+    return self.transport.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 392, in perform_request
+    raise e
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\transport.py", line 358, in perform_request
+    status, headers_response, data = connection.perform_request(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\elasticsearch\connection\base.py", line 300, in _raise_error
+    raise HTTP_EXCEPTIONS.get(status_code, TransportError)(
+elasticsearch.exceptions.NotFoundError: NotFoundError(404, 'index_not_found_exception', 'no such index [post]', post, index_or_alias)
+2020-09-29 16:53:15,172 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:53:53,361 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:54:01,667 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 154, in search
+    return render_template('search.html', title=_('Search'), posts=posts,
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\application_datacenter\vscw\test\app\templates\search.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 1, in top-level template code
+    {% extends 'bootstrap/base.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
+    {%- block html %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
+    {% block body -%}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
+    {% block content -%}
+  File "D:\application_datacenter\vscw\test\app\templates\base.html", line 84, in block "content"
+    {% block app_content %}
+  File "D:\application_datacenter\vscw\test\app\templates\search.html", line 6, in block "app_content"
+    {% include '_post.html' %}
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: _post.html
+2020-09-29 16:56:00,959 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 16:59:57,521 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 17:00:04,101 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 17:00:18,689 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 17:05:20,544 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 17:05:26,206 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 18:49:22,411 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 19:21:56,192 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 19:22:58,879 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 19:24:02,680 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 19:24:11,506 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 154, in search
+    print(g.search_form.q.data,g.search_form.q.value)
+AttributeError: 'StringField' object has no attribute 'value'
+2020-09-29 19:24:28,213 INFO: Microblog startup [in D:\application_datacenter\vscw\test\app\__init__.py:79]
+2020-09-29 19:24:34,028 ERROR: Exception on /search [GET] [in d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\application_datacenter\vscw\test\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\application_datacenter\vscw\test\app\main\routes.py", line 154, in search
+    print(g.search_form.q.data,g.search_form.q.values)
+AttributeError: 'StringField' object has no attribute 'values'
