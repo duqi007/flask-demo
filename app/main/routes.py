@@ -17,7 +17,7 @@ def before_request():
         db.session.commit()
         g.search_form = SearchForm()
     # g.locale = zh
-    Post.reindex()
+    # Post.reindex()
     g.locale = str(get_locale())
 
 @bp.route('/', methods=['GET', 'POST'])
