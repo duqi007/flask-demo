@@ -35,6 +35,7 @@ def create_app(config_class=Config):
     bootstrap.init_app(app)
     moment.init_app(app)
     babel.init_app(app)
+    # print(app.config['ELASTICSEARCH_URL'])
     app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL']) \
         if app.config['ELASTICSEARCH_URL'] else None
     from app.errors import bp as errors_bp
@@ -48,6 +49,7 @@ def create_app(config_class=Config):
 
 
     if not app.debug and not app.testing:
+        # print(app.config['MAIL_USERNAME'])
         if app.config['MAIL_SERVER']:
             mailhost = (app.config['MAIL_SERVER'], app.config['MAIL_PORT'])
             auth = None
@@ -58,11 +60,12 @@ def create_app(config_class=Config):
                 secure = ()
             mail_handler = SMTPHandler(
                 mailhost=mailhost,
-                fromaddr='no-reply@' + app.config['MAIL_SERVER'],
+                fromaddr=app.config['MAIL_USERNAME'],
                 toaddrs=app.config['ADMIN'],
                 subject="Failure!",
                 credentials=auth,
                 secure=secure)
+            # print(app.config['MAIL_USERNAME'])
             mail_handler.setLevel(level=logging.ERROR)
             app.logger.addHandler(mail_handler)
         if not os.path.exists('logs'):
