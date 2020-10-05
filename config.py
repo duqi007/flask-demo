@@ -19,4 +19,4 @@ class Config(object):
     BD_TRANSLATOR_KEY = os.environ.get('BD_TRANSLATOR_KEY')
     BD_APP_ID = os.environ.get('BD_APP_ID')
     TRANSLATE_URL = os.environ.get('TRANSLATE_URL')
-    # ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
