@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-29 17:00+0800\n"
+"POT-Creation-Date: 2020-10-16 18:23+0800\n"
 "PO-Revision-Date: 2020-09-26 23:49+0800\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: app/__init__.py:21
+#: app/__init__.py:23
 msgid "Please log in to access this page."
 msgstr "Por favor, identificate para acceer a la página."
 
@@ -99,7 +99,7 @@ msgstr "[Microblog] Restablecer su contraseña"
 msgid "About me"
 msgstr "Recuérdame"
 
-#: app/main/forms.py:12 app/main/forms.py:31 app/templates/base.html:51
+#: app/main/forms.py:12 app/main/forms.py:31 app/main/forms.py:45
 msgid "Submit"
 msgstr "Enviar"
 
@@ -111,15 +111,19 @@ msgstr "Di algo"
 msgid "Search"
 msgstr ""
 
+#: app/main/forms.py:44
+msgid "Message"
+msgstr ""
+
 #: app/main/routes.py:35
 msgid "Your post is now live!"
 msgstr "¡Tu publicación ya está en vivo!"
 
-#: app/main/routes.py:43 app/templates/base.html:43
+#: app/main/routes.py:43 app/templates/base.html:115
 msgid "Home"
 msgstr "Inicio"
 
-#: app/main/routes.py:60 app/templates/base.html:45
+#: app/main/routes.py:60 app/templates/base.html:117
 msgid "Explore"
 msgstr "Explorar"
 
@@ -154,6 +158,22 @@ msgstr "¡No puedes dejar de seguirte!"
 msgid "You are not following %(username)s."
 msgstr ""
 
+#: app/main/routes.py:175
+msgid "Your message has been sent."
+msgstr ""
+
+#: app/main/routes.py:178
+msgid "Send Message"
+msgstr ""
+
+#: app/main/routes.py:214
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:216
+msgid "Exporting posts..."
+msgstr ""
+
 #: app/main/translate.py:16
 msgid "Error: the translation service is not configured."
 msgstr ""
@@ -166,19 +186,23 @@ msgstr ""
 msgid "Welcome to Microblog"
 msgstr "[Microblog] Restablecer su contraseña"
 
-#: app/templates/base.html:21
+#: app/templates/base.html:85
 msgid "Error: Could not contact server."
 msgstr ""
 
-#: app/templates/base.html:44
+#: app/templates/base.html:116
 msgid "Proflie"
 msgstr ""
 
-#: app/templates/base.html:64
+#: app/templates/base.html:130
 msgid "Login"
 msgstr ""
 
-#: app/templates/base.html:66
+#: app/templates/base.html:134 app/templates/messages.html:4
+msgid "Messages"
+msgstr ""
+
+#: app/templates/base.html:145
 msgid "LOGOUT"
 msgstr ""
 
@@ -187,12 +211,20 @@ msgstr ""
 msgid "Hi, %(username)s!"
 msgstr ""
 
-#: app/templates/index.html:13 app/templates/user_info.html:45
+#: app/templates/index.html:13 app/templates/user_info.html:64
 msgid "Newer posts"
 msgstr ""
 
-#: app/templates/index.html:18 app/templates/user_info.html:50
+#: app/templates/index.html:18 app/templates/user_info.html:69
 msgid "Older posts"
+msgstr ""
+
+#: app/templates/messages.html:12
+msgid "Newer messages"
+msgstr ""
+
+#: app/templates/messages.html:17
+msgid "Older messages"
 msgstr ""
 
 #: app/templates/search.html:4
@@ -207,6 +239,11 @@ msgstr ""
 msgid "Next results"
 msgstr ""
 
+#: app/templates/send_message.html:4
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr ""
+
 #: app/templates/user_info.html:9
 msgid "User"
 msgstr ""
@@ -219,26 +256,38 @@ msgstr ""
 msgid "Last seen on(utc)"
 msgstr ""
 
-#: app/templates/user_info.html:15
+#: app/templates/user_info.html:19
+msgid "Send private message"
+msgstr ""
+
+#: app/templates/user_info.html:23 app/templates/user_poup.html:12
 #, python-format
 msgid "%(count)d followers"
 msgstr ""
 
-#: app/templates/user_info.html:15
+#: app/templates/user_info.html:23 app/templates/user_poup.html:13
 #, python-format
 msgid "%(count)d following"
 msgstr ""
 
-#: app/templates/user_info.html:17
+#: app/templates/user_info.html:26
 msgid "Edit your profile"
 msgstr ""
 
-#: app/templates/user_info.html:22
+#: app/templates/user_info.html:32
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user_info.html:40 app/templates/user_poup.html:20
 msgid "Follow"
 msgstr ""
 
-#: app/templates/user_info.html:29
+#: app/templates/user_info.html:47 app/templates/user_poup.html:27
 msgid "Unfollow"
+msgstr ""
+
+#: app/templates/user_poup.html:9
+msgid "Last seen on"
 msgstr ""
 
 #: app/templates/auth/login.html:6
@@ -277,12 +326,12 @@ msgstr ""
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr ""
 
-#: app/templates/sub_page/_post.html:14
+#: app/templates/sub_page/_post.html:16
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr ""
 
-#: app/templates/sub_page/_post.html:25
+#: app/templates/sub_page/_post.html:27
 msgid "Translate"
 msgstr ""
 

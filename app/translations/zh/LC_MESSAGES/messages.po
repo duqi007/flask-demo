@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-29 17:00+0800\n"
+"POT-Creation-Date: 2020-10-16 18:23+0800\n"
 "PO-Revision-Date: 2020-09-26 23:19+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: app/__init__.py:21
+#: app/__init__.py:23
 msgid "Please log in to access this page."
 msgstr "请登录访问这个页面"
 
@@ -95,7 +95,7 @@ msgstr "密码重置成功"
 msgid "About me"
 msgstr "关于我"
 
-#: app/main/forms.py:12 app/main/forms.py:31 app/templates/base.html:51
+#: app/main/forms.py:12 app/main/forms.py:31 app/main/forms.py:45
 msgid "Submit"
 msgstr "提交"
 
@@ -107,15 +107,19 @@ msgstr "写帖子"
 msgid "Search"
 msgstr "搜索"
 
+#: app/main/forms.py:44
+msgid "Message"
+msgstr "消息"
+
 #: app/main/routes.py:35
 msgid "Your post is now live!"
 msgstr "成功发布帖子！"
 
-#: app/main/routes.py:43 app/templates/base.html:43
+#: app/main/routes.py:43 app/templates/base.html:115
 msgid "Home"
 msgstr "家"
 
-#: app/main/routes.py:60 app/templates/base.html:45
+#: app/main/routes.py:60 app/templates/base.html:117
 msgid "Explore"
 msgstr "探索"
 
@@ -150,6 +154,22 @@ msgstr "无法关注自己"
 msgid "You are not following %(username)s."
 msgstr "你取关了%(username)s"
 
+#: app/main/routes.py:175
+msgid "Your message has been sent."
+msgstr "私信成功"
+
+#: app/main/routes.py:178
+msgid "Send Message"
+msgstr "私信"
+
+#: app/main/routes.py:214
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:216
+msgid "Exporting posts..."
+msgstr "正在导出..."
+
 #: app/main/translate.py:16
 msgid "Error: the translation service is not configured."
 msgstr "错误：翻译服务没有配置"
@@ -162,19 +182,23 @@ msgstr "错误：翻译服务出错"
 msgid "Welcome to Microblog"
 msgstr "欢迎"
 
-#: app/templates/base.html:21
+#: app/templates/base.html:85
 msgid "Error: Could not contact server."
 msgstr "错误：无法连接服务器"
 
-#: app/templates/base.html:44
+#: app/templates/base.html:116
 msgid "Proflie"
 msgstr "个人简介"
 
-#: app/templates/base.html:64
+#: app/templates/base.html:130
 msgid "Login"
 msgstr "登录"
 
-#: app/templates/base.html:66
+#: app/templates/base.html:134 app/templates/messages.html:4
+msgid "Messages"
+msgstr "消息"
+
+#: app/templates/base.html:145
 msgid "LOGOUT"
 msgstr "退出"
 
@@ -183,13 +207,21 @@ msgstr "退出"
 msgid "Hi, %(username)s!"
 msgstr "你好，%(username)s！"
 
-#: app/templates/index.html:13 app/templates/user_info.html:45
+#: app/templates/index.html:13 app/templates/user_info.html:64
 msgid "Newer posts"
 msgstr "下一页"
 
-#: app/templates/index.html:18 app/templates/user_info.html:50
+#: app/templates/index.html:18 app/templates/user_info.html:69
 msgid "Older posts"
 msgstr "上一页"
+
+#: app/templates/messages.html:12
+msgid "Newer messages"
+msgstr ""
+
+#: app/templates/messages.html:17
+msgid "Older messages"
+msgstr "上一列消息"
 
 #: app/templates/search.html:4
 msgid "Search Results"
@@ -203,6 +235,11 @@ msgstr "上一页"
 msgid "Next results"
 msgstr "下一页"
 
+#: app/templates/send_message.html:4
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr "私信 %(recipient)s"
+
 #: app/templates/user_info.html:9
 msgid "User"
 msgstr "用户"
@@ -215,27 +252,39 @@ msgstr "上次浏览(当地时间))"
 msgid "Last seen on(utc)"
 msgstr "上次浏览(utc)"
 
-#: app/templates/user_info.html:15
+#: app/templates/user_info.html:19
+msgid "Send private message"
+msgstr "私信"
+
+#: app/templates/user_info.html:23 app/templates/user_poup.html:12
 #, python-format
 msgid "%(count)d followers"
 msgstr "%(count)d 粉丝"
 
-#: app/templates/user_info.html:15
+#: app/templates/user_info.html:23 app/templates/user_poup.html:13
 #, python-format
 msgid "%(count)d following"
 msgstr "关注 %(count)d 人"
 
-#: app/templates/user_info.html:17
+#: app/templates/user_info.html:26
 msgid "Edit your profile"
 msgstr "编辑"
 
-#: app/templates/user_info.html:22
+#: app/templates/user_info.html:32
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user_info.html:40 app/templates/user_poup.html:20
 msgid "Follow"
 msgstr "关注"
 
-#: app/templates/user_info.html:29
+#: app/templates/user_info.html:47 app/templates/user_poup.html:27
 msgid "Unfollow"
 msgstr "取关"
+
+#: app/templates/user_poup.html:9
+msgid "Last seen on"
+msgstr "上次浏览"
 
 #: app/templates/auth/login.html:6
 msgid "New User?"
@@ -273,12 +322,12 @@ msgstr "未知错误"
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr "已通知管理员，很抱歉。"
 
-#: app/templates/sub_page/_post.html:14
+#: app/templates/sub_page/_post.html:16
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s 说 %(when)s"
 
-#: app/templates/sub_page/_post.html:25
+#: app/templates/sub_page/_post.html:27
 msgid "Translate"
 msgstr "翻译"
 
